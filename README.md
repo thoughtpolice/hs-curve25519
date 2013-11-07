@@ -5,7 +5,7 @@
 [![Haskell](http://b.repl.ca/v1/language-haskell-lightgrey.png)](http://www.haskell.org)
 
 This package implements minimal bindings to the [curve25519][]
-diffie-hellman function . It should be relatively easy to both depend
+diffie-hellman function. It should be relatively easy to both depend
 on, or include outright in your executable/package itself.
 
 The underlying implementation is the `ref` code from [SUPERCOP][],
