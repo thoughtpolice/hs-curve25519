@@ -27,7 +27,7 @@ instance Arbitrary PublicKey where
   arbitrary = PublicKey `liftM` arbitrary
 
 --------------------------------------------------------------------------------
--- Signatures
+-- Tests
 
 type KP = (PublicKey, SecretKey)
 
